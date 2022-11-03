@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Georgi Djakonov">
+		<meta name="keywords" content="ITI0101, Sissejuhatus infotehnoloogiasse, 8. nädala kontrolltöö">
+		<meta name="description" content="8. nädala kontrolltöö">
+		<title>8. nädala kontrolltöö</title>
+		<style>
+			body {
+				background-color: #dfdfdf;
+				color: black;
+				display: flex;
+				min-height: 100vh;
+				flex-direction: column;
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				text-decoration: none;
+				color: #034eff;
+				transition: 0.5s;
+			}
+			a:hover {
+				color: #978a8a;
+				text-decoration: underline;
+				font-size: 1.05em;
+			}
+			.menu {
+				width: 75%;
+				margin: 0.5rem auto;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.menu > div {
+				flex: 50%;
+			}
+			.logo img {
+				width:10%;
+			}
+			.navigation ul {
+				list-style: none;
+				display: flex;
+				justify-content: right;
+				margin-right: 1rem;
+			}
+			.navigation ul > li {
+				margin-left: 0.5rem;
+			}
+			main {
+				flex: 1;
+				width: 75%;
+				margin: 0 auto;
+			}
+			main header {
+				width: 100%;
+				text-align: center;
+			}
+			.first {
+				margin-top: 5rem;
+			}
+			.first table {
+				width: 100%;
+			}
+			.subject {
+				width: 75%;
+			}
+			.eap {
+				width: 10%;
+				text-align: center;
+			}
+			.code {
+				width: 15%;
+				text-align: center;
+			}
+			.second {
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 5rem;
+			}
+			.second > div {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.second > div > div {
+				flex: 50%;
+			}
+			.second > div > div > img {
+				width: 100%;
+			}
+			.second p {
+				padding: 0;
+				margin: 0 0 0 1rem;
+
+			}
+			footer {
+				padding: 0;
+				margin: 0;
+				flex-shrink: 0;
+				width: 100%;
+				height: 2rem;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+			footer div {
+				width: 75%;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="menu">
+			<div class="logo">
+				<a href="kd8.html"><img alt="logo" src="logo.svg"></a>
+			</div>
+			<div class="navigation">
+				<nav>
+					<ul>
+						<li><a href="https://taltech.ee/">Taltech</a></li>
+						<li><a href="https://gitlab.cs.ttu.ee/">GitLab</a></li>
+						<li><a href="https://moodle.taltech.ee/">Moodle</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<main>
+			<header><h1>It is header of main content</h1></header>
+			<section class="first">
+				<header><h3>This table represents subjects of this year</h3></header>
+				<table>
+					<tr>
+						<th class="subject">Subject</th>
+						<th class="eap">EAP</th>
+						<th class="code">Subject code</th>
+					</tr>
+					<tr>
+						<td>Diskreetne matemaatika</td>
+						<td class="eap">6.0</td>
+						<td class="code">IAX0010</td>
+					</tr>
+					<tr>
+						<td>Arvutivõrkude alused</td>
+						<td class="eap">6.0</td>
+						<td class="code">ICA0019</td>
+					</tr>
+					<tr>
+						<td>Sissejuhatus infotehnoloogiasse</td>
+						<td class="eap">6.0</td>
+						<td class="code">ITI0101</td>
+					</tr>
+					<tr>
+						<td>Programmeerimise algkursus</td>
+						<td class="eap">6.0</td>
+						<td class="code">ITI0102</td>
+					</tr>
+					<tr>
+						<td>Erialatutvustus</td>
+						<td class="eap">6.0</td>
+						<td class="code">ITI0105</td>
+					</tr>
+				</table>
+			</section>
+			<section class="second">
+				<header><h3>Section with some image and text</h3></header>
+				<div>
+					<div>
+						<img alt="taltech" src="https://investinestonia.com/wp-content/uploads/taltech.jpg">
+					</div>
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat, ante eu rhoncus elementum, felis tortor sodales diam, eu porta sapien libero in est. Fusce sed hendrerit turpis. In hac habitasse platea dictumst. Donec non tellus massa. In semper diam sed ipsum pretium rutrum. Morbi vitae dui facilisis, sagittis purus nec, hendrerit mauris. Vivamus eu massa ac odio lobortis pulvinar. Nulla facilisi. Suspendisse accumsan justo sit amet tincidunt pharetra. Praesent congue auctor diam, et luctus augue porta ac. Nam vel felis et metus aliquam mollis at vel augue. 
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>
+				&copy; Copyright 2022 by Georgi Djakonov, 221848IAIB
+			</div>
+		</footer>
+		
+	</body>
+</html>
